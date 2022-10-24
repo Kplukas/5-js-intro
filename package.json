@@ -1,18 +1,25 @@
 {
-  "name": "5-js-intro",
+  "name": "40-grupe-js-intro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "string":"nodemon ./js/02-string.js",
-    "numbers":"nodemon ./js/01-numbers.js",
-    "dev":"nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "multiply": "nodemon ./js/09-multiply.js",
+      "for": "nodemon ./js/08-for.js",
+      "if": "nodemon ./js/07-if.js",
+      "function": "nodemon ./js/06-function.js",
+      "object": "nodemon ./js/05-object.js",
+      "array": "nodemon ./js/04-array.js",
+      "boolean": "nodemon ./js/03-boolean.js",
+      "string": "nodemon ./js/02-string.js",
+      "numbers": "nodemon ./js/01-numbers.js",
+      "dev": "nodemon",
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "KPlukas",
+  "author": "Rimantas",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+      "nodemon": "^2.0.20"
   }
 }
